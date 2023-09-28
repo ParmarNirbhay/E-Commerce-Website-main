@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    
+    /* overflow: hidden; */
+}
+/* navbar page */
+.navbar{
+    width: 96%;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+.navbar .left a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    line-height: 29px;
+   
+}
+.navbar .right{
+    padding: 0 10px 0 0;
+}
+
+.navbar .right a{
+    text-decoration: none;
+    color:#ffffffc5;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 10px;
+   
+}
+
+/* landpage  */
+
+.landPage{
+    position: relative;
+    display: flex;
+    height: 85vh;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+.landPage .landpage-left{
+    width: 60%;
+    height: 29vh;
+    padding: 15px;
+}
+
+.landpage-left h1{
+    font-size: 40px;
+    padding: 5px;
+    font-weight: 900;
+    line-height: 16.82px;
+}
+
+.landpage-left p{
+    line-height:26.31px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#login{
+    color: white;
+    background-color: black;
+    width:110px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+#signUp{
+    color: black;
+    width:110px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.landpage-right img{
+    position: absolute;
+    width: 60%;
+    top:150px; 
+    right: 0px; 
+}
+
+/* singup form */
+
+.container{
+    padding: 0 8%;
+}
+
+.signUpForm >div input{
+    width: 90%;
+    height: 35px;
+    margin: 13px;
+}
+
+.signUpForm button, #alreadyUser{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+
+::placeholder{
+    color: black;
+}
